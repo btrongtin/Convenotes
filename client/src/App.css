@@ -131,6 +131,9 @@ button.post-button.btn:active {
 .list-group-item {
   padding: 1rem;
 }
+.list-group-item > span {
+  word-break: break-word;
+}
 .completed-item {
   /* position: relative; */
   text-decoration: line-through;

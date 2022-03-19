@@ -100,7 +100,7 @@ const AddPostModal = (props) => {
             type="submit"
             onClick={() => setNewNote({ ...newNote, color: randomCardBg() })}
           >
-            LearnIt!
+            Note!
           </Button>
         </Modal.Footer>
       </Form>
